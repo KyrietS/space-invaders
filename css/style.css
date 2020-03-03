@@ -1,0 +1,60 @@
+/**
+ * Sebastian Fojcik.
+ */
+
+html {
+    background-color: #232236;
+    /*color: #dadada;*/
+    color: #a29fe3;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    /*width: 700px;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#myCanvas {
+    display: block;
+    border:1px solid #706dad;
+}
+
+#help {
+    max-width: 300px;
+    margin-left: 10px;
+}
+
+#help table {
+    border-collapse: collapse;
+}
+#help table, th, td {
+    border: 1px solid #706dad;
+}
+#help td {
+    padding: 3px;
+}
+#help thead {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    font-size: 1.4em;
+    background-color: #232236;
+    border: 1px solid #a29fe3;
+    color: #a29fe3;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #393678;
+    color: white;
+}
