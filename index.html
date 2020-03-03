@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sebastian Fojcik">
+    <title>WebGL Space Invaders</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="canvasArea">
+            <canvas id="myCanvas" width="700" height="700">
+                Your browser does not support HTML5
+            </canvas>
+            <br>
+            <i>Wersja 1.0 &nbsp; Sebastian Fojcik</i> <strong id="state"></strong>
+            <button onclick="Test2();" style="float:right;">STOP</button>
+            <button onclick="Test1();" style="float:right;">START</button>
+        </div>
+        <aside id="help">
+            <table>
+                <thead>
+                <tr>
+                    <td colspan="2">Controls</td>
+                </tr>
+                <tr>
+                    <td>Action</td>
+                    <td>Description</td>
+                </tr>
+                </thead>
+                <tr>
+                    <td><code>LEFT</code></td>
+                    <td>turn left</td>
+                </tr>
+                <tr>
+                    <td><code>RIGHT</code></td>
+                    <td>turn right</td>
+                </tr>
+                <tr>
+                    <td><code>SPACE</code></td>
+                    <td>shoot</td>
+                </tr>
+            </table>
+        </aside>
+    </main>
+    <img src="img/rocket.png" id="rocket" style="display: none" alt="rocket">
+    <img src="img/ufo.png" id="ufo" style="display: none" alt="ufo">
+    <img src="img/bg.jpg" id="background" style="display: none" alt="background">
+
+
+    <script src="js/Utils.js"></script>
+    <script src="js/Shaders.js"></script>
+    <script src="js/WebGL.js"></script>
+    <script src="js/BufferRGB.js"></script>
+    <script src="js/BufferST.js"></script>
+    <script src="js/Entities.js"></script>
+    <script src="js/Controls.js"></script>
+    <script src="js/World.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/test.js"></script>
+</body>
+</html>

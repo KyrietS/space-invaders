@@ -1,0 +1,3 @@
+/**
+ * Plik do testowania skryptów.
+ */
